@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+/*code for mobile*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    margin: 200px;
+    border-radius: 9px;
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    overflow: auto;
+    position: relative;
+    top: 25%;
+    left: 30%;
+    transform: translate(-20%, -30%);
+}
+.sub{
+    padding: px;
+}
+.pix{
+    height: 200px;
+}
+p, #but{
+    font-family: "montserrat",serif;
+    font-weight: 400;
+}
+.first{
+    font-size: 0.6em;
+    letter-spacing: 0.4em;
+}
+.he{
+    line-height: 1em;
+    font-family: "fraunces", serif;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.sub{
+    padding: 15px;
+}
+.bnum{
+    color: green;
+    font-family: "fraunces", serif;
+    font-weight: 700;
+    font-size: 1.6em;
+}
+ p{
+    font-family: "montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+} 
+#small{
+    position: absolute;
+    top: 79%;
+    left: 45%;
+    font-size: 0.7em;
+}
+.pa{  
+    line-height: 1.5em;
+}
+h1, p, #but{
+    padding: 7px;
+}
+#but{
+    background-color:green;
+    color: white;
+    width:250px;
+    height: 40px;
+    border-radius: 6px;
+    border: 0;
+    align-self: center;
+    justify-content: center;
+    position: absolute;
+    top: 89%;
+    left: 9%;
+}
+#but:hover{
+    background-color: rgb(26, 107, 26);
+}
+@media screen and (max-width:1440px){
+    
+}
+@media screen and (min-width: 375px) {
+    
+}

@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+ /*code for desktop*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+.main{
+    margin: 200px;
+    display: flex;
+    gap: 5px;
+    width: 530px;
+    height: 400px;
+    border-radius: 9px;
+    background-color: white;
+    overflow: auto;
+    position: relative;
+    top: 25%;
+    left: 25%;
+    transform: translate(-25%, -25% );
+}
+img{
+    height: 400px;
+}
+.first{
+    font-size: 0.7em;
+    letter-spacing: 0.4em;
+}
+.he{
+    line-height: 0.9;
+    font-family: "fraunces", serif;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.sub{
+    padding: 15px;
+}
+.bnum{
+    color: green;
+    font-family: "fraunces", serif;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+ p{
+    font-family: "montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+} 
+#small{
+    text-align: right;
+    position: absolute;
+    top: 64%;
+    left: 79%;
+    transform: translate(-68, -76%);
+    font-size: 0.7em;
+}
+.pa{
+    
+    line-height: 1.5em;
+    
+}
+h1, p, #but{
+    padding: 10px;
+}
+#but{
+    background-color:green;
+    color: white;
+    width:220px;
+    height: 40px;
+    border-radius: 6px;
+    border: 0;
+    align-self: center;
+    justify-content: center;
+    font-family: "montserrat", sans-serif;
+    font-weight: 500;
+    position: absolute;
+    top: 80%;
+    left: 55%;
+}
+#but:hover{
+    background-color: rgb(26, 107, 26);
+}
+@media screen and (max-width:1400px){
+    .main{
+        margin: 200px;
+        display: flex;
+        gap: 5px;
+        width: 530px;
+        height: 400px;
+        border-radius: 9px;
+        background-color: white;
+        overflow: auto;
+        position: relative;
+        top: 25%;
+        left: 25%;
+        transform: translate(-25%, -25% );
+    }
+    
+}
+@media screen and (min-width:375px){
+    
+    
+}
